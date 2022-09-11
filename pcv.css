@@ -10,7 +10,7 @@
 
 .titulo{
 	text-align:start;
-	background-color: rgb(126, 190, 126);
+	background-color: rgb(39, 82, 39);
 	height: 100px;
 	width:860px;
 	margin-top: 0px;
@@ -18,13 +18,14 @@
 	margin-left: 15px;
 	margin-right: 0px;
 	padding-top: 0px;
+	border-radius: 20px 100px 150px;
 }
 
 section{
     background-color: rgb(255, 255, 255);
     height: 500px;
     width: 500px;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Times New Roman', Times, serif;
 	padding-left: 0px;
 	list-style: none;
 	margin-right: 0px;
@@ -32,11 +33,12 @@ section{
 	margin-bottom: 0px;
 	margin-right: 0px;
 	float: left;
+	text-align: justify;
 }
 aside{ 
     float:right;
-    background-color: rgb(230, 224, 224);
-    color: white;
+    background-color: rgb(194, 191, 191);
+    color: rgb(8, 7, 7);
     overflow: hidden;
     margin-left: 0%;
 	margin-top: 40px;
@@ -44,6 +46,7 @@ aside{
     padding: 1%;
 	width: 250px;
 	text-align: justify;
+	font-family: 'Times New Roman', Times, serif;
 }
 
 .imagen{
@@ -51,6 +54,7 @@ aside{
 	margin-top: 20px;
 	margin-right: 10px;
     padding: 1%;
+	filter: drop-shadow(8px 8px 4px #6ebcca);
 }
 .columna1{
 	height: 500px;
@@ -85,3 +89,5 @@ aside{
 	text-align: center;
 	
 }
+
+
